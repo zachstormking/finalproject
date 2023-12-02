@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Purgatory Mountain Resort | Contact</title>
+        <meta name="author" content="Zachariah King">
+        <meta name="description" content="Welcome to the Purgatory Mountain Resort Contact page where you can find information on how to contact our wonderful staff to help you with whatever you may need.">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header id="top">
+            
+            <h1><a href="index.html">Purgatory Mountain Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="image of Swiss Valley">
+        </header>
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>Required fields marked with a *</p><br>
+            <img src="images/swiss-sunset.jpg" alt="image of Swiss sunset" width="925"> 
+            <br>
+            <div class="form1">
+                <div><form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="fullname">Full name:*</label><br>
+                    <input type="text" id="fullname" name="fullname" maxlength="50" required><br><br>
+                    <label for="email">Enter your email:*</label><br>
+                    <input type="email" id="email" name="email" maxlength="60" required><br><br>
+                    <label for="phone">Enter your phone number:*</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <small>Format: 123-456-7890</small><br></div>
+                    <div><label for="choices">Preferred Contact Method:*</label>
+                    <br>
+                    <input type="radio" id="emailchoice" name="fav_method" value="email">
+                    <label for="email">E-mail</label><br>
+                    <input type="radio" id="phonechoice" name="fav_method" value="phone">
+                    <label for="phone">Phone</label><br><br>
+                    <label for="comments">Comments:*</label><br>
+                    <input type="text" id="comments" name="comments" maxlength="300" required>
+                    <br><br><input type="submit" value="Submit">
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                </form> 
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Purgatory Mountain Resort
+            <br>
+            This site is for educational purposes only</p>
+        </footer>
+    </body>
